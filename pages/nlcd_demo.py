@@ -1,6 +1,6 @@
 import ee
 import streamlit as st
-import geemap.foliumap as geemap
+import geemap as geemap
 
 # Get an NLCD image by year.
 def getNLCD(year):
