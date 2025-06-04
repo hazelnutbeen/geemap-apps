@@ -1,6 +1,6 @@
 import ee
 import streamlit as st
-import geemap as geemap
+import geemap.folium as geemap
 
 def getNLCD(year):
     dataset = ee.ImageCollection("USGS/NLCD_RELEASES/2019_REL/NLCD")
